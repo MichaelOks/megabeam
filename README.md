@@ -1,12 +1,19 @@
-# Megabeam
+# Megabeam - distributed processing system.
 
-### Is an open-source software used for distributed processing. 
- This is lightwight fast and easy to use system. It consist of one server and unlimited "workers" and clients.
+#### C++ open-source software used for distributed processing.
+#### MegaBeam is lightweight fast and easy to use system, which consist of a server,
+#### unlimited workers and clients. It allows to process a lot of tasks
+#### over unlimited computers over TCP/IP.
+
+
+
+<br>
+# How it works ( in short )
  * clients send any kind of tasks (program) to the server.
  * Server deliver tasks to unbusy workers.
  * workers will receive jobs from the server and execute them.
 
-### How to use?
+# How to use?
 ##### Run as a server
          megabeam server
 ##### Run as a worker + server ip
