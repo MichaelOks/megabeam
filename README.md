@@ -1,9 +1,10 @@
-
 # Megabeam
 
 ### Is an open-source software used for distributed processing. 
- This is lightwight fast and easy to use system. It consist of one server and unlimited "workers". Each "worker" should run on other computer that could reach the server though the network.
- When a client send a new task to the server. The server desides to give this task to the next free "worker".
+ This is lightwight fast and easy to use system. It consist of one server and unlimited "workers" and clients.
+ * clients send any kind of tasks (program) to the server.
+ * Server deliver tasks to unbusy workers.
+ * workers will receive jobs from the server and execute them.
 
 ### How to use?
 ##### Run as a server
@@ -11,8 +12,6 @@
 ##### Run as a worker + server ip
          megabeam worker 127.0.0.1 
  
+##### A demo client is exist in test folder.
  
- 
- 
- 
- ![Alt text](http://carrierconsulting.com/wp-content/uploads/2011/10/CarrierConsulting_FrameRelayNetworks.jpg "dasdasdas")
+ ![Alt text](http://www.ejbtutorial.com/wp-content/uploads/2013/10/computer_network-298x248.jpg "")
